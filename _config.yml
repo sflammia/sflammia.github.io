@@ -9,9 +9,3 @@ twitter_username: s_flammia
 github_username: sflammia
 
 theme: minima
-remote_theme: jekyll/minima
-minima:
-  skin: auto
-
-plugins:
- - jekyll-remote-theme
