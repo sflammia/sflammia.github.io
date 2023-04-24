@@ -1,5 +1,5 @@
 title: Steven Flammia
-author:
+author: ""
   name: Steven Flammia
   email: "sflammia@gmail.com"
 description:
@@ -9,5 +9,9 @@ twitter_username: s_flammia
 github_username: sflammia
 
 theme: minima
+remote_theme: jekyll/minima
 minima:
   skin: auto
+
+plugins:
+ - jekyll-remote-theme
