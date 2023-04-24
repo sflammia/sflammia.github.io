@@ -1,11 +1,13 @@
 title: Steven Flammia
 author:
   name: Steven Flammia
-  email: sflammia@gmail.com
+  email: "sflammia@gmail.com"
 description:
 baseurl: 
 url: sflammia.github.io
 twitter_username: s_flammia
-github_username:  sflammia
+github_username: sflammia
 
 theme: minima
+minima:
+  skin: auto
