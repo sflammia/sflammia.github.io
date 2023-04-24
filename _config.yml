@@ -1,4 +1,11 @@
-theme: minima
 title: Steven Flammia
-author: Steven Flammia
-email: "sflammia@gmail.com"
+author:
+  name: Steven Flammia
+  email: sflammia@gmail.com
+description:
+baseurl: 
+url: sflammia.github.io
+twitter_username: s_flammia
+github_username:  sflammia
+
+theme: minima
