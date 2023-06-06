@@ -199,11 +199,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-  - '_projects'
-  - '_pages/projects.md'
-  - '_pages/cv.md'
-  - '_pages/courses.md'
-  - '_pages/code.md'
 keep_files:
   - CNAME
   - .nojekyll
