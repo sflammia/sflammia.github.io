@@ -6,8 +6,9 @@
 
 SRC_BRANCH="master"
 DEPLOY_BRANCH="gh-pages"
+MY_USR="sflammia"
 
-USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH] [--verbose] [--no-push]"
+USAGE_MSG="usage: deploy [-h|--help] [-u|--user MY_USR] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH] [--verbose] [--no-push]"
 
 while [[ $# > 0 ]]; do
     key="$1"
