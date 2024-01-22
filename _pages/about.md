@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Principal Research Scientist, AWS Center for Quantum Computing
+subtitle: Professor, Virginia Tech, Dept. of Computer Science
 
 profile:
   align: right
