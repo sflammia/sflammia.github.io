@@ -1,5 +1,31 @@
 ---
 ---
+@misc{2510.26845,
+    abstract={Simulating the time-dynamics of quantum many-body systems was the original use of quantum computers proposed by Feynman, motivated by the critical role of quantum interactions between electrons in the properties of materials and molecules. Accurately simulating such systems remains one of the most promising applications of general-purpose digital quantum computers, in which all the parameters of the model can be programmed and any desired physical quantity output. However, performing such simulations on today's quantum computers at a scale beyond the reach of classical methods requires advances in the efficiency of simulation algorithms and error mitigation techniques. Here we demonstrate programmable digital quantum simulation of the dynamics of the 2D Fermi-Hubbard model -- one of the best-known simplified models of electrons in crystalline solids -- at a scale beyond exact classical state-vector simulation. We implement simulations of this model on lattice sizes up to ${6\times 6}$ using 72 qubits on Google's Willow quantum processor, across a range of physical parameters, including different on-site electron-electron interaction strengths and magnetic flux values, and study phenomena including formation of magnetic polarons (charge carriers surrounded by local magnetic polarisation), dynamical symmetry-breaking in stripe-ordered states, attraction of charge carriers on an entangled background state known as a valence bond solid, and the approach to equilibrium through thermalisation. We validate our results against exact calculations in parameter regimes where these are feasible, and compare them to approximate classical simulations performed using tensor network and operator propagation methods. Our results demonstrate that meaningful programmable digital quantum simulation of many-body interacting electron models is now feasible on state-of-the-art quantum hardware.},
+    archivePrefix={arXiv},
+    author={Faisal Alam and Jan Lukas Bosse and Ieva Čepaitė and Adrian Chapman and Laura Clinton and Marcos Crichigno and Elizabeth Crosson and Toby Cubitt and Charles Derby and Oliver Dowinton and Paul K. Faehrmann and Steve Flammia and Brian Flynn and Filippo Maria Gambetta and Raúl García-Patrón and Max Hunter-Gordon and Glenn Jones and Abhishek Khedkar and Joel Klassen and Michael Kreshchuk and Edward Harry McMullan and Lana Mineh and Ashley Montanaro and Caterina Mora and John J. L. Morton and Dhrumil Patel and Pete Rolph and Raul A. Santos and James R. Seddon and Evan Sheridan and Wilfrid Somogyi and Marika Svensson and Niam Vaishnav and Sabrina Yue Wang and Gethin Wright},
+    bibtex_show = {1},
+    doi = {10.48550/arXiv.2510.26845},
+    eprint={2510.26845},
+    pdf = {https://arxiv.org/pdf/2510.26845},
+    preview={2510.26845.jpg},
+    title={{Programmable digital quantum simulation of 2D Fermi-Hubbard dynamics using 72 superconducting qubits}},
+    year={2025},
+}
+
+@misc{2510.26300,
+    abstract={Simulation of the time-dynamics of fermionic many-body systems has long been predicted to be one of the key applications of quantum computers. Such simulations -- for which classical methods are often inaccurate -- are critical to advancing our knowledge and understanding of quantum chemistry and materials, underpinning a wide range of fields, from biochemistry to clean-energy technologies and chemical synthesis. However, the performance of all previous digital quantum simulations of fermions has been matched by classical methods, and it has thus far remained unclear whether near-term, intermediate-scale quantum hardware could offer any computational advantage in this area. Here, we implement an efficient quantum simulation algorithm on Quantinuum's System Model H2 trapped-ion quantum computer for the time dynamics of a 56-qubit system that is too complex for exact classical simulation. We focus on the periodic spinful 2D Fermi-Hubbard model and present evidence of spin-charge separation, where the elementary electron's charge and spin decouple. In the limited cases where ground truth is available through exact classical simulation, we find that it agrees with the results we obtain from the quantum device. Employing long-range Wilson operators to study deconfinement of the effective gauge field between spinons and the effective potential between charge carriers, we find behaviour that differs from predictions made by classical tensor network methods. Our results herald the use of quantum computing for simulating strongly correlated electronic systems beyond the capacity of classical computing.},
+    archivePrefix={arXiv},
+    author={Faisal Alam and Jan Lukas Bosse and Ieva Čepaitė and Adrian Chapman and Laura Clinton and Marcos Crichigno and Elizabeth Crosson and Toby Cubitt and Charles Derby and Oliver Dowinton and Norhan Eassa and Paul K. Faehrmann and Steve Flammia and Brian Flynn and Filippo Maria Gambetta and Raúl García-Patrón and Max Hunter-Gordon and Glenn Jones and Abhishek Khedkar and Joel Klassen and Michael Kreshchuk and Edward Harry McMullan and Lana Mineh and Ashley Montanaro and Caterina Mora and John J. L. Morton and Alberto Nocera and Dhrumil Patel and Pete Rolph and Raul A. Santos and James R. Seddon and Evan Sheridan and Wilfrid Somogyi and Marika Svensson and Niam Vaishnav and Sabrina Yue Wang and Gethin Wright and Eli Chertkov and Henrik Dreyer and Michael Foss-Feig},
+    bibtex_show = {1},
+    doi = {10.48550/arXiv.2510.26300},
+    eprint={2510.26300},
+    pdf = {https://arxiv.org/pdf/2510.26300},
+    preview={2510.26300.jpg},
+    title={{Fermionic dynamics on a trapped-ion quantum computer beyond exact classical simulation}},
+    year={2025},
+}
+
 @misc{2504.01936,
     abstract={Fermionic averaged circuit eigenvalue sampling (FACES) is a protocol to simultaneously learn the averaged error rates of many fermionic linear optical (FLO) gates simultaneously and self-consistently from a suitable collection of FLO circuits. It is highly flexible, allowing for the in situ characterization of FLO-averaged gate-dependent noise under natural assumptions on a family of continuously parameterized one- and two-qubit gates. We rigorously show that our protocol has an efficient sampling complexity, owing in-part to useful properties of the Kravchuk transformations that feature in our analysis. We support our conclusions with numerical results. As FLO circuits become universal with access to certain resource states, we expect our results to inform noise characterization and error mitigation techniques on universal quantum computing architectures which naturally admit a fermionic description.},
     archivePrefix={arXiv},
@@ -13,16 +39,18 @@
     year={2025},
 }
 
-@misc{2502.11900,
+@article{2502.11900,
     abstract={Learning the unknown interactions that govern a quantum system is crucial for quantum information processing, device benchmarking, and quantum sensing. The problem, known as Hamiltonian learning, is well understood under the assumption that interactions are local, but this assumption may not hold for arbitrary Hamiltonians. Previous methods all require high-order inverse polynomial dependency with precision, unable to surpass the standard quantum limit and reach the gold standard Heisenberg-limited scaling. Whether Heisenberg-limited Hamiltonian learning is possible without prior assumptions about the interaction structures, a challenge we term \emph{ansatz-free Hamiltonian learning}, remains an open question. In this work, we present a quantum algorithm to learn arbitrary sparse Hamiltonians without any structure constraints using only black-box queries of the system's real-time evolution and minimal digital controls to attain Heisenberg-limited scaling in estimation error. Our method is also resilient to state-preparation-and-measurement errors, enhancing its practical feasibility. Moreover, we establish a fundamental trade-off between total evolution time and quantum control on learning arbitrary interactions, revealing the intrinsic interplay between controllability and total evolution time complexity for any learning algorithm. These results pave the way for further exploration into Heisenberg-limited Hamiltonian learning in complex quantum systems under minimal assumptions, potentially enabling new benchmarking and verification protocols.},
     archivePrefix={arXiv},
     author={Hong-Ye Hu and Muzhou Ma and Weiyuan Gong and Qi Ye and Yu Tong and Steven T. Flammia and Susanne F. Yelin},
     bibtex_show = {1},
-    doi = {10.48550/arXiv.2502.11900},
+    doi = {10.1103/j7b8-pb77},
     eprint={2502.11900},
     pdf = {https://arxiv.org/pdf/2502.11900},
     preview={2502.11900.jpg},
     title={{Ansatz-free Hamiltonian learning with Heisenberg-limited scaling}},
+    volume={6},
+    journal={PRX Quantum},    
     year={2025},
 }
 
@@ -65,17 +93,20 @@
     year={2024},
 }
 
-@misc{2410.07332,
+@article{2410.07332,
       abstract={We investigate multi-mode GKP (Gottesman–Kitaev–Preskill) quantum error-correcting codes from a geometric perspective. First, we construct their moduli space as a quotient of groups and exhibit it as a fiber bundle over the moduli space of symplectically integral lattices. We then establish the Gottesman–Zhang conjecture for logical GKP Clifford operations, showing that all such gates arise from parallel transport with respect to a flat connection on this space. Specifically, non-trivial Clifford operations correspond to topologically non-contractible paths on the space of GKP codes, while logical identity operations correspond to contractible paths.},
       archivePrefix={arXiv},
       author={Ansgar G. Burchards and Steven T. Flammia and Jonathan Conrad},
       bibtex_show = {1},
-      doi = {10.48550/arXiv.2410.07332},
+      doi = {10.22331/q-2025-10-29-1899},
       eprint={2410.07332},
       pdf = {https://arxiv.org/pdf/2410.07332},
       preview={2410.07332.jpg},
-      title={{Fiber Bundle Fault Tolerance of GKP Codes}}, 
-      year={2024},
+      title = {{Fiber Bundle Fault Tolerance of GKP Codes}}, 
+      journal = {Quantum},
+      volume = {9},
+      pages = {1899},
+      year = {2025},
 }
 
 @misc{2410.03906,
@@ -104,17 +135,20 @@
 	year = {2024},
 }
 
-@misc{2311.17985,
+@article{2311.17985,
 	abstract = {Low-depth random circuit codes possess many desirable properties for quantum error correction but have so far only been analyzed in the code capacity setting where it is assumed that encoding gates and syndrome measurements are noiseless. In this work, we design a fault-tolerant distillation protocol for preparing encoded states of one-dimensional random circuit codes even when all gates and measurements are subject to noise. This is sufficient for fault-tolerant quantum memory since these encoded states can then be used as ancillas for Steane error correction. We show through numerical simulations that our protocol can correct erasure errors up to an error rate of 2\%. In addition, we also extend results in the code capacity setting by developing a maximum likelihood decoder for depolarizing noise similar to work by Darmawan <i>et al</i>. As in their work, we formulate the decoding problem as a tensor network contraction and show how to contract the network efficiently by exploiting the low-depth structure. Replacing the tensor network with a so-called ``tropical'' tensor network, we also show how to perform minimum weight decoding. With these decoders, we are able to numerically estimate the depolarizing error threshold of finite-rate random circuit codes and show that this threshold closely matches the hashing bound even when the decoding is sub-optimal.},
 	author = {Nelson, Jon and Bentsen, Gregory and Flammia, Steven T. and Gullans, Michael J.},
 	archiveprefix = {arXiv},
-	doi = {10.48550/arXiv.2311.17985},
+	doi = {10.1103/PhysRevResearch.7.013040},
 	eprint = {2311.17985},
 	pdf = {https://arxiv.org/pdf/2311.17985},
 	bibtex_show = {1},
 	preview = {2311.17985.jpg},
 	title = {{Fault-Tolerant Quantum Memory using Low-Depth Random Circuit Codes}},
-	year = {2023},
+	journal = {Phys. Rev. Research},
+	volume = {7},
+	pages = {013040},
+	year = {2025},
 }
 
 @article{2307.08737,
@@ -221,7 +255,6 @@
 	archiveprefix = {arXiv},
 	journal = {PRX Quantum},
 	volume = {5},
-	issue = {1},
 	pages = {010347},
 	eprint = {2201.07802},
 	doi = {10.1103/PRXQuantum.5.010347},
