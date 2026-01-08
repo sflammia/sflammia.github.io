@@ -1,0 +1,9 @@
+github_users:
+  - sflammia
+
+repo_description_lines_max: 2
+
+github_repos:
+  - sflammia/Zauner.jl
+  - sflammia/PauliPopRec.jl
+  - sflammia/ACES

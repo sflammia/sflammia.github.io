@@ -508,10 +508,10 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+  border-top: 0px solid var(--global-divider-color);
+  padding-top: 0px;
+  padding-bottom: 20px;
+  font-size: 0.8rem;
 
   .container {
     text-align: center;
@@ -791,7 +791,7 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
+          border-bottom: 0px solid;
           font-style: normal;
         }
 
