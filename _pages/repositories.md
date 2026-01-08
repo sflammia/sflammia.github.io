@@ -5,6 +5,7 @@ title: repositories
 description: I have written a small amount of software.
 nav: true
 nav_order: 4
+published: false
 ---
 
 {% if site.data.repositories.github_users %}
