@@ -1,5 +1,18 @@
 ---
 ---
+@misc{2603.12236,
+    abstract={Understanding how isolated quantum many-body systems thermalize remains a central question in modern physics. We study the onset of ergodicity in a two-dimensional disordered Heisenberg Floquet model using digital quantum simulation on IBM's Nighthawk superconducting processor, reaching system sizes of up to $10\times10$ qubits. We probe ergodicity across different length scales by coarse-graining the system into spatial patches of varying sizes and introducing a measure based on the collision entropy of each patch, enabling a detailed study of when ergodic behavior emerges across scales. The high sampling rate of superconducting quantum processing units, together with an optimal sample estimator, allow us to access patches of sizes up to $3\times3$. We observe that as the Heisenberg coupling $J$ increases, the noiseless system undergoes a smooth crossover from subergodic to ergodic behavior, with smaller patches approaching their random-matrix-theory values first, thereby revealing a hierarchy across scales. In the region of parameter space where classical tensor-network simulations are reliable, small patches or small values of $J$, we find excellent agreement with the error-mitigated quantum simulation. Beyond this regime, volume-law entanglement and contraction complexity growth causes the cost of classical methods to rise sharply. Our results open new directions for the use of quantum computers in the study of quantum thermalization.},
+    archivePrefix={arXiv},
+    author={Faisal Alam and Marcos Crichigno and Elizabeth Crosson and Steven T. Flammia and Filippo Maria Gambetta and Max Hunter Gordon and Michael Kreshchuk and Ashley Montanaro and Alberto Nocera and Raul A. Santos},
+    bibtex_show = {1},
+    doi = {10.48550/arXiv.2603.12236},
+    eprint={2603.12236},
+    pdf = {https://arxiv.org/pdf/2603.12236},
+    preview={2603.12236.jpg},
+    title={{Onset of Ergodicity Across Scales on a Digital Quantum Processor}},
+    year={2026},
+}
+
 @misc{2602.09119,
     abstract={Estimating quantum time-series such as the Loschmidt amplitude $f(t)=\langleψ|\mathrm{e}^{-\mathrm{i}Ht}|ψ\rangle$ is central to spectroscopy, Hamiltonian analysis, and many phase-estimation algorithms. Direct estimation via the Hadamard test requires controlled implementations of $\mathrm{e}^{-\mathrm{i}Ht}$, and the depth of these controlled circuits grows with $t$, making long-time estimation challenging on near-term hardware. We introduce Quantum Phaselift, a lifting-based framework that estimates the rank-one matrix $Z = f f^\dagger$ rather than estimating $f$ directly. We propose simple quantum circuits for estimating the entries of $Z$ and show that measuring only a narrow band of this matrix around the diagonal is sufficient to uniquely recover $f$. Crucially, this reformulation decouples the controlled circuit depth from the maximum evolution time to scale instead with the width of the measured band. We prove that a $O(1)$ bandwidth suffices for generic signals, leading to substantial savings in controlled operations compared to direct estimation methods. We develop three recovery algorithms with provable exact recovery in the noiseless setting and stability under measurement noise. Finally, we numerically demonstrate that high-quality recovery is possible for the 2D Fermi-Hubbard and 2D transverse-field Ising model signals of size exceeding 100 time points using only a few million measurement shots and reasonable post-processing time, making our time-series estimation techniques efficient and effective for near-term implementations.},
     archivePrefix={arXiv},
